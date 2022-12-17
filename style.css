@@ -1,0 +1,130 @@
+
+*{
+	margin : 0;
+	padding : 0;
+	}
+.header{
+	 height:100vh;
+	 width: 100%;
+	 background-image:url(images/7.png);
+	 background-position-y: 50px;
+	 background-size: cover;
+	 position:relative;
+}
+
+.taskbar ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 98px;
+	margin-left: 116px;
+    font-family: 'Bebas Neue', cursive;
+}
+.taskbar ul li{
+ display:inline-block;	
+}
+.taskbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 11px;
+	padding: 5px 10px;
+	font-size: 18px;
+	border-radius:18px;
+	transition: 0.6s ease;
+}
+.taskbar ul li a:hover{
+	background-color: #A6A6A6;
+	color: #000000;
+}
+.header{
+	
+	margin:auto;
+}
+.signin{
+	float: right;
+	list-style-type: none;
+	font-size: 18px;
+	margin-top: 98px;
+	margin-right: 116px;
+	 font-family: 'Bebas Neue', cursive;
+}
+.signin a{
+	text-decoration: none;
+	color:#000000;
+	padding: 5px 10px;
+	transition: 0.6s ease;
+	border-radius: 12px;
+}
+.signin a:hover{
+	color: #FF1616;
+	background-color: #A6A6A6;
+}
+.lines{
+	float: left;
+    margin-top: 210px;
+	margin-left:134px;
+	color:#fff;
+	font-size: 76px;
+	line-height: 70px;
+    font-family: 'Righteous', cursive;
+	position: absolute;
+}
+.subline{
+	list-style-type: none;
+    margin-top: 420PX;
+	margin-left:138px;
+	border: 2px;
+	color:#fff;
+	font-size: 32px;
+	font-family: 'Corinthia', cursive;      
+	position: absolute;
+}
+
+.rect{
+height: 88px;
+width: auto;
+background-image:linear-gradient(to right,#7ED957 10%,#003D1A);
+}
+.services ul{
+	position:absolute;
+	margin-top: 450px;
+	list-style-type: none;
+    transform:translateX(11.25%);
+    font-family: 'Bebas Neue', cursive;
+	
+}
+.services ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 98px;
+	padding: 5px 32px;
+	font-size: 52px;
+	border-radius: 18px;
+	background-color:#005926;
+	transition: 0.6s ease;
+}
+.services ul li a:hover{
+	background-color:#FFF844;
+	color:#000000;
+}
+.services ul li{
+ display:inline-block;	
+}
+.logo{
+	float:left;
+	font-size: 40px;
+	color:#fff;
+	margin-top: -71px;
+	margin-left:-228px;
+font-family: 'Megrim', cursive;
+}
+nav{
+	display: flex;
+	padding: 50px 50px;
+}
+nav img{
+	width: 55px;
+	height: 55px;
+	transform: translateX(-340px);
+	margin-top: -123px;
+}
+
